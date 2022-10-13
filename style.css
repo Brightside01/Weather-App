@@ -2,13 +2,19 @@ body{
     margin: 0%;
     padding: 0%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 50vh;
     background-color: rgb(54, 55, 55);
     font-family: 'Open Sans', sans-serif;
     background-image: url("./image/8.jpg");
     font-size: 120%;
+}
+.header h1 {
+    color: rgba(255, 255, 255, 0.572);
+    font-size: 70px;
+    text-shadow: 2px 7px 7px black;
 }
 .card{
     background-color:rgba(6, 6, 6, 0.393);
