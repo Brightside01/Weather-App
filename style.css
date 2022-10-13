@@ -112,8 +112,11 @@ body{
     .card {
         max-width: 300px;
     }
+    #input {
+        font-size: 20px;
+    }
     body {
         /* background-size: cover; */
-        height: 20vh;
+        height: 10vh;
     }
 }
